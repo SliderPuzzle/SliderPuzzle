@@ -1,0 +1,100 @@
+body{
+  background-color: #E4A0C9;
+}
+.grid-container {
+  border-style: solid;
+    margin: auto;
+  width: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  background-color: #FAE1DF;
+  padding: 10px;
+}
+
+.grid-container > div {
+ text-align: center;
+ padding: 0px;
+  border-style: solid;
+  background-color:#EBD2BE;
+  
+}
+
+.grid-container > div img{
+  width: 100%;
+}
+
+.buttonStyling {
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #880666; 
+  color: #FFE8D4;
+  
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="grid-container"] {
+    width: 80%;
+  }
+}/* CSS files add styling rules to your content */
+body{
+  background-color: #E4A0C9;
+}
+.grid-container {
+  border-style: solid;
+    margin: auto;
+  width: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  background-color: #FAE1DF;
+  padding: 10px;
+}
+
+.grid-container > div {
+ text-align: center;
+ padding: 0px;
+  border-style: solid;
+  background-color:#EBD2BE;
+  
+}
+
+.grid-container > div img{
+  width: 100%;
+}
+
+.buttonStyling {
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #880666; 
+  color: #FFE8D4;
+  
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="grid-container"] {
+    width: 80%;
+  }
+}
